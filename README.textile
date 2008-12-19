@@ -12,6 +12,14 @@ cd frog/plugins/
 git clone git://github.com/tuupola/frog_jquery.git jquery
 </pre>
 
+or
+
+<pre>
+cd frog/plugins/
+wget http://www.appelsiini.net/download/frog_jquery.tar.gz
+tar -xzvf frog_jquery.tar.gz
+</pre>
+
 Go to admin and enable jQuery plugin.
 
 h3. Usage
