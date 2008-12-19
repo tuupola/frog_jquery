@@ -1,0 +1,25 @@
+h3. What?
+
+Plugin to add jQuery to "Frog CMS":http://www.madebyfrog.com/ admin interface. By using this plugin instead of manually including jQuery plugin developers can be sure jQuery library does not get accidentally included several times. Also there is no need to instruct users to manually edit Frog CMS layout files.
+
+
+h3. Install 
+
+Copy plugin files to _frog/plugins/jquery/_ folder.
+
+<pre>
+cd frog/plugins/
+git clone git://github.com/tuupola/frog_jquery.git jquery
+</pre>
+
+Go to admin and enable jQuery plugin.
+
+h3. Usage
+
+Plugin forces jQuery to be in noconflict mode. You can use $ shortcut normally like this:
+
+<pre>
+jQuery(function($) {
+    $('#someid').show();
+});
+</pre>
