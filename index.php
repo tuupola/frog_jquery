@@ -17,7 +17,7 @@ Plugin::setInfos(array(
     'id'          => 'jquery',
     'title'       => 'jQuery', 
     'description' => 'Add jQuery to admin interface.', 
-    'version'     => '1.2.6', 
+    'version'     => '1.3.0',
     'license'     => 'MIT',
     'require_frog_version' => '0.9.3',
     'update_url'  => 'http://www.appelsiini.net/download/frog-plugins.xml',
